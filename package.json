@@ -1,0 +1,29 @@
+{
+  "name": "SlackMessagesBot",
+  "version": "1.0.0",
+  "description": "Slack bot that informs you about messages you were tagged on.",
+  "main": "static/index.html",
+  "scripts": {
+    "start": "node_modules/.bin/nw .",
+    "test": "mocha ./tests/*.test.js"
+  },
+  "author": "Mat Kolodziej",
+  "dependencies": {
+    "@slack/client": "^4.3.1",
+    "@slack/events-api": "^1.0.1",
+    "aws-sdk": "^2.280.1",
+    "moment": "^2.22.2",
+    "mustache": "^2.3.0",
+    "nw": "^0.32.0",
+    "speaker": "^0.4.1",
+    "stream": "0.0.2"
+  },
+  "window": {
+    "width": 500,
+    "resizable": false
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}

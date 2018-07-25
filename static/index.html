@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slack Messages Bot</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <ul id="messages">
+        </ul>
+    </div>
+
+    <script id="message-template" type="text/template"> 
+        <li class="message">
+            <div class="message__header">
+                <img src="{{avatar}}" alt="avatar" class="avatar">
+                <div class="info">
+                    <span class="channel">#{{channel}}</span>
+                    <span class="timestamp">{{timestamp}}</span>
+                    <h4 class="name">{{user}}</h4>
+                </div>
+            </div>
+            <div class="message__body">
+                <p>{{text}}</p>
+            </div>
+        </li>
+    </script>
+    <script src="../app.js"></script>
+</body>
+
+</html>
