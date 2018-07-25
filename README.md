@@ -1,5 +1,5 @@
 #Slack Message Bot
-![ScreenShot](https://i.imgur.com/HIwstWl.png)
+![ScreenShot](https://i.imgur.com/HIwstWl.png =250x250)
 
 ## Info
 
